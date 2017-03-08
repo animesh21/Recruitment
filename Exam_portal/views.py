@@ -525,7 +525,7 @@ def question_edit(request,pk):
     correctchoice = question.correctchoice_set.all()
 
     correct = correctchoice[0].correct_choice.choice
-    print(correct)
+#     print(correct)
     choice = []
     for c in choices:
         choice.append(c.choice)
